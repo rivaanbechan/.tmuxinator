@@ -1,0 +1,11 @@
+name: ml
+root: .
+
+windows:
+  - python ml:
+      layout: main-vertical
+      panes:
+        - run vim:
+          - vim
+        - ipython3:
+          - ipython3 
